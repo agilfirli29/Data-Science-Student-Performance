@@ -21,17 +21,17 @@ Sumber data: [data.csv](https://github.com/dicodingacademy/dicoding_dataset/blob
 Setup environment:
 Pastikan Anda telah menginstal Python di komputer Anda. Proyek ini dikembangkan menggunakan Python versi 3.13. Berikut adalah panduan langkah demi langkah untuk menyiapkan environment dan menjalankan proyek secara lokal:
 
-# Membuat Virtual Environment:
+- Membuat Virtual Environment:
 Buka Terminal atau Command Prompt, arahkan ke dalam direktori proyek (folder yang berisi file prediction.py dan requirements.txt), lalu jalankan perintah berikut:
 `python -m venv env`
 
-# Mengaktifkan Virtual Environment:
+- Mengaktifkan Virtual Environment:
 * Untuk pengguna Windows:
 `env\Scripts\activate`
 * Untuk pengguna Mac/Linux:
 `source env/bin/activate`
 
-# Menginstal Dependencies:
+- Menginstal Dependencies:
 Setelah environment aktif, sangat disarankan untuk memperbarui pip terlebih dahulu, kemudian instal seluruh library yang dibutuhkan melalui file requirements.txt dengan perintah berikut:
 `python -m pip install --upgrade pip`
 `pip install -r requirements.txt`
