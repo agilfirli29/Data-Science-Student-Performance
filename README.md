@@ -51,6 +51,13 @@ Aplikasi ini bekerja dengan cara:
 
 **Akses Aplikasi ML:** [Student Performance Predictor](https://data-science-student-performance-agilfirligunawan.streamlit.app/)
 
+
+## Conclusion
+1. Hasil eksplorasi data analysis (EDA) dan visualisasi pada business dashboard, tingkat dropout mahasiswa di Jaya Jaya Institute tergolong cukup tinggi yaitu sekitar 32,1% dari total mahasiswa. Faktor utama yang berkaitan dengan dropout didominasi oleh aspek akademik dan finansial. Dari sisi akademik, performa mahasiswa pada semester awal, terutama jumlah mata kuliah yang lulus (approved) dan nilai rata-rata (grade) pada semester pertama dan kedua, menjadi indikator paling kuat terhadap keberlanjutan studi. Dari sisi finansial, status pembayaran biaya kuliah menunjukkan pengaruh signifikan, di mana mahasiswa yang belum melunasi cenderung memiliki risiko dropout lebih tinggi. Selain itu, faktor seperti status beasiswa, usia saat mendaftar, serta kondisi sosial seperti status pernikahan juga turut berkontribusi dalam membedakan karakteristik mahasiswa yang berpotensi dropout.
+   
+2. Berdasarkan hasil pemodelan Machine Learning, algoritma Gradient Boosting terpilih sebagai model terbaik dengan performa yang sangat baik, yaitu Accuracy sebesar 92,87%, serta nilai Precision, Recall, dan F1-Score yang masing-masing berada di kisaran 93%. Hal ini menunjukkan bahwa model mampu mengklasifikasikan status mahasiswa secara akurat dan seimbang. Berdasarkan analisis feature importance, faktor yang paling berpengaruh dalam prediksi dropout adalah Curricular units 2nd sem (approved), Curricular units 2nd sem (grade), Curricular units 1st sem (grade), Curricular units 1st sem (approved), serta Tuition fees up to date. Temuan ini mengindikasikan bahwa performa akademik di awal masa studi dan kondisi finansial merupakan faktor kunci, sehingga intervensi dini seperti monitoring akademik dan dukungan finansial sangat penting untuk menekan angka dropout
+
+
 ## Rekomendasi Action Items :
 1. Program Bantuan Keuangan: Menyediakan skema pembayaran yang fleksibel (opsi cicilan) atau bantuan finansial khusus bagi mahasiswa yang teridentifikasi memiliki status hutang namun memiliki potensi akademik baik.
 
